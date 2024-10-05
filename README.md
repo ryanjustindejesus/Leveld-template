@@ -4,7 +4,7 @@
 <h2>Environments and Technologies Used</h2>
 
 - <b>Microsoft Azure</b> 
-- <b>Azure Active Directory</b>
+- <b>Description</b>
 
 <h2>Operating Systems</h2>
 
