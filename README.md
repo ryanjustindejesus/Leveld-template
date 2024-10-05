@@ -10,5 +10,12 @@
 
 - <b>Windows 10</b>
 
-
 <h2>Configuration Steps</h2>
+
+``` 
+SecurityEvent
+| where EventID == 4625
+| where TimeGenerated > ago(60m)
+| summarize FailureCount = count() by SourceIP = IpAddress, EventID, Activity
+| where FailureCount >= 10
+```
