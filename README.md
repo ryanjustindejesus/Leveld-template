@@ -1,5 +1,5 @@
 <h1>Title</h1>
-<b>This tutorial outlines the configuration and observation of Microsoft Azure's Active Directory hierarchy groups</b>
+<b>This tutorial outlines the configuration </b>
 
 <h2>Environments and Technologies Used</h2>
 
